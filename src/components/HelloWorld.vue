@@ -91,10 +91,10 @@ export default {
         wsPort: 45133,
         wssPort: 45133,
         cluster: "mt1",
-        forceTLS: false,
+        forceTLS: true,
         encrypted: true,
         disableStats: true,
-        enabledTransports: ["ws"],
+        enabledTransports: ["ws","wss"],
       });
 
       // Listen for connection
